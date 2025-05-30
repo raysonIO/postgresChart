@@ -4,7 +4,7 @@ con = psycopg2.connect(
 			host="",
 			database="general",
 			user="postgres",
-			password="./anita"
+			password=""
 			)
 cur = con.cursor()
 cur.execute("Select * from pg_database;")
